@@ -1,7 +1,7 @@
 {
-  "name": "@zainulbr/i18n-webpack-plugin",
-  "version": "2.0.1",
-  "author": "Zainul Bahar",
+  "name": "@matthewbschneider/i18n-webpack-plugin",
+  "version": "2.0.2",
+  "author": "Matt Schneider",
   "description": "Rewrite original embed localization into your bundle with support webpack 5",
   "main": "dist/cjs.js",
   "files": [
@@ -19,7 +19,6 @@
   "license": "MIT",
   "scripts": {
     "start": "npm run build -- -w",
-    "appveyor:test": "npm run test",
     "build": "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js'",
     "clean": "del-cli dist",
     "clean:dist": "del-cli dist",
@@ -71,7 +70,7 @@
     ]
   },
   "engines": {
-    "node": "12"
+    "node": ">= 12.x <= 14.x"
   },
   "homepage": "https://webpack.js.org",
   "repository": {

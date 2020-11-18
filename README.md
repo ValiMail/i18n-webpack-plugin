@@ -29,7 +29,7 @@ console.log(__("Missing Text"));
 ```
 ```
 var path = require("path");
-var I18nPlugin = require("@zainulbr/i18n-webpack-plugin");
+var I18nPlugin = require("@matthewbschneider/i18n-webpack-plugin");
 var languages = {
 	"en": null,
 	"de": require("./de.json")

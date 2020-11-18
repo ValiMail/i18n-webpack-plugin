@@ -87,5 +87,8 @@
     "example": "example",
     "test": "test"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "resolutions": {
+    "mem": "^4.0.0"
+  }
 }

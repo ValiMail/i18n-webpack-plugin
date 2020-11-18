@@ -53,6 +53,7 @@ module.exports = Object.keys(languages).map(function(language) {
 ```
 
 ```
+// de.json
 {
 	"Hello World": "Hallo Welt"
 }

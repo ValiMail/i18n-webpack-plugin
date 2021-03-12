@@ -11,25 +11,30 @@
 <h2 align="center">Install</h2>
 
 npm
+
 ```bash
-npm i -D @matthewbschneider/i18n-webpack-plugin
+npm i -D @valimail/i18n-webpack-plugin
 ```
+
 yarn
+
 ```bash
-yarn add -D @matthewbschneider/i18n-webpack-plugin
+yarn add -D @valimail/i18n-webpack-plugin
 ```
 
 <h2 align="center">Usage</h2>
 
 This plugin creates bundles with translations baked in. So you can serve the translated bundle to your clients.
 Example:
+
 ```
 console.log(__("Hello World"));
 console.log(__("Missing Text"));
 ```
+
 ```
 var path = require("path");
-var I18nPlugin = require("@matthewbschneider/i18n-webpack-plugin");
+var I18nPlugin = require("@valimail/i18n-webpack-plugin");
 var languages = {
 	"en": null,
 	"de": require("./de.json")
@@ -58,8 +63,10 @@ module.exports = Object.keys(languages).map(function(language) {
 	"Hello World": "Hallo Welt"
 }
 ```
-current [example](https://github.com/zainulbr/i18n-webpack-plugin/tree/master/example). 
-original [example](https://github.com/webpack/webpack/tree/v4.0.0/examples/i18n) from un maintenance repo 
+
+current [example](https://github.com/zainulbr/i18n-webpack-plugin/tree/master/example).
+original [example](https://github.com/webpack/webpack/tree/v4.0.0/examples/i18n) from un maintenance repo
+
 <h2 align="center">Options</h2>
 
 ```
@@ -68,7 +75,8 @@ plugins: [
   new I18nPlugin(languageConfig, optionsObj)
 ],
 ```
- - `optionsObj.functionName`: the default value is `__`, you can change it to other function name.
- - `optionsObj.failOnMissing`: the default value is `false`, which will show a warning message, if the mapping text cannot be found. If set to `true`, the message will be an error message.
- - `optionsObj.hideMessage`: the default value is `false`, which will show the warning/error message. If set to `true`, the message will be hidden.
- - `optionsObj.nested`: the default value is `false`. If set to `true`, the keys in `languageConfig` can be nested. This option is interpreted only if `languageConfig` isn't a function.
+
+- `optionsObj.functionName`: the default value is `__`, you can change it to other function name.
+- `optionsObj.failOnMissing`: the default value is `false`, which will show a warning message, if the mapping text cannot be found. If set to `true`, the message will be an error message.
+- `optionsObj.hideMessage`: the default value is `false`, which will show the warning/error message. If set to `true`, the message will be hidden.
+- `optionsObj.nested`: the default value is `false`. If set to `true`, the keys in `languageConfig` can be nested. This option is interpreted only if `languageConfig` isn't a function.

@@ -53,7 +53,7 @@
     "nsp": "^3.2.1",
     "pre-commit": "^1.2.2",
     "standard-version": "^9.3.1",
-    "webpack": "^5.46.0",
+    "webpack": "^5.52.1",
     "webpack-defaults": "^4.0.0"
   },
   "peerDependencies": {

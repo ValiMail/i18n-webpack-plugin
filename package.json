@@ -37,7 +37,7 @@
     "webpack-defaults": "webpack-defaults"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
+    "@babel/cli": "^7.15.7",
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
     "babel-jest": "^27.0.6",

@@ -27,7 +27,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm i --no-save git://github.com/webpack/webpack.git#main
+    - run: npm i --no-save https://github.com/webpack/webpack.git#main
     - run: npm ci
     - run: npm run lint
     - run: npm run build

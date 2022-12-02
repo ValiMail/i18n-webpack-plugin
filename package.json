@@ -1,6 +1,6 @@
 {
   "name": "@valimail/i18n-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "Matt Schneider",
   "description": "Rewrite original embed localization into your bundle with support webpack 5",
   "main": "dist/cjs.js",
@@ -53,8 +53,7 @@
     "nsp": "^3.2.1",
     "pre-commit": "^1.2.2",
     "standard-version": "^9.5.0",
-    "webpack": "^5.75.0",
-    "webpack-defaults": "^4.0.0"
+    "webpack": "^5.75.0"
   },
   "peerDependencies": {
     "webpack": "*"
@@ -69,7 +68,7 @@
     ]
   },
   "engines": {
-    "node": ">= 12.x <= 14.x"
+    "node": "16.x"
   },
   "homepage": "https://webpack.js.org",
   "repository": {

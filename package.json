@@ -1,6 +1,6 @@
 {
   "name": "@valimail/i18n-webpack-plugin",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": "Matt Schneider",
   "description": "Rewrite original embed localization into your bundle with support webpack 5",
   "main": "dist/cjs.js",

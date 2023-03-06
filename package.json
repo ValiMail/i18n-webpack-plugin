@@ -40,7 +40,7 @@
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
-    "babel-jest": "^29.4.3",
+    "babel-jest": "^29.5.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "cross-env": "^7.0.2",

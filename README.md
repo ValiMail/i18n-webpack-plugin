@@ -8,6 +8,12 @@
   <p>i18n (localization) plugin for Webpack.<p>
 </div>
 
+<h2 align="center">Publish</h2>
+
+```bash
+npm publish
+```
+
 <h2 align="center">Install</h2>
 
 npm

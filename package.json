@@ -47,7 +47,7 @@
     "del-cli": "^5.1.0",
     "eslint": "^8.56.0",
     "eslint-config-webpack": "^1.2.5",
-    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-import": "^2.30.0",
     "jest": "^27.5.1",
     "lint-staged": "^15.2.7",
     "nsp": "^3.2.1",

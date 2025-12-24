@@ -46,7 +46,7 @@
     "cross-env": "^7.0.2",
     "del-cli": "^5.1.0",
     "eslint": "^8.56.0",
-    "eslint-config-webpack": "^1.2.5",
+    "eslint-config-webpack": "^4.7.3",
     "eslint-plugin-import": "^2.29.1",
     "jest": "^27.5.1",
     "lint-staged": "^15.2.7",
